@@ -69,8 +69,38 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+header img {
+    /* border: 1px solid red; */
+}
+
+header nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    align-items: flex-end;
+    /* margin-right: 30px; */
+    font-size: 12px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +188,7 @@ p {
 }
 
 footer {
+    /* border: 1px solid red; */
     width: 100%;
     background: black;
 }
@@ -174,4 +205,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.aboutparagraph {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 10px;
 }
