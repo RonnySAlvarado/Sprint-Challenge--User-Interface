@@ -214,3 +214,74 @@ footer nav a {
     width: 800px;
     margin: 10px;
 }
+
+.middle-about-page {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-about-page .top-section {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.middle-about-page .bottom-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+}
+
+.middle-about-page img {
+    padding-bottom: 10px;
+}
+
+.middle-about-page a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px;
+    margin: 10px 0 15px 5px;
+    color: black;
+}
+
+.middle-about-page .strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+.middle-about-page .how-we-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+
+.middle-about-page .places-we-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+
+.middle-about-page .collaboration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
